@@ -1,0 +1,38 @@
+.menu-container{
+    margin: 0%;
+    padding: 0%;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(./image/1280.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 10px solid rgb(31, 177, 58);
+    position: relative;
+}
+.logo{
+    width: 100px;
+    
+}
+.menu{
+   list-style-type: none;
+   float: right;
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgba(185, 189, 185, 0.867);
+    font-size: larger;
+}
+.content{
+    font-size: 27px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: rgba(185, 189, 185, 0.867);
+    text-align: center;
+    
+}
+
